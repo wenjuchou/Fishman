@@ -1,0 +1,35 @@
+class Fisherman {
+
+  constructor(){
+    this.name = 'Jack';
+    this.boat = 'FishingBoat';
+    this.dog = ’PitBull';
+    this.girlfriend = 'Ross';
+    this.friends = [Mike, Tom, Jimmy];
+    this.goal = 'Avoid Sharkes and Save Ross';
+    this.score = 'Catch The Fish and Incrise The Score';
+    this.seeking = 'Fish';
+    this.enemy = 'Sharkes';
+    this.x = 'Move Left or Right'
+
+  }
+
+Catch(fish){
+    // Catch the fishes when the boat touch the fishes
+}
+
+Avoid(){
+    //Avoid touching the sharkes
+}
+
+function moveleft() {
+  myGamePiece.speedX -= 1;
+}
+
+function moveright() {
+  myGamePiece.speedX += 1;
+}
+
+
+
+}
